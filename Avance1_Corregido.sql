@@ -19,6 +19,7 @@ CREATE TABLE Clientes (
   usuario VARCHAR(50) UNIQUE NOT NULL,
   contraseña VARCHAR(50) NOT NULL,
   id_domicilio INT NOT NULL,
+  edad INT,
   FOREIGN KEY (id_domicilio) REFERENCES Domicilios(id_domicilio)
 );
 
@@ -28,7 +29,7 @@ CREATE TABLE Cuentas (
   fecha_apertura DATE NOT NULL,
   fecha_transaccion DATE NOT NULL,
   saldo DECIMAL(10,2) NOT NULL,
-  estado ENUM('Activa', 'Cancelado'),
+  estado ENUM('Activa', 'Cancelada'),
   id_cliente INT NOT NULL,
   FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente)
 );
