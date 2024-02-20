@@ -1,0 +1,5 @@
+com.mycompany.bancopersistencia
+com.mycompany.bancopersistencia.Conexiones
+com.mycompany.bancopersistencia.Control
+com.mycompany.bancopersistencia.DAOS
+com.mycompany.bancopersistencia.PersistenciaException

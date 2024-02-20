@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/uirtis/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar;C:/Users/uirtis/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar;C:/Users/uirtis/.m2/repository/com/mycompany/BancoDominio/1.0-SNAPSHOT/BancoDominio-1.0-SNAPSHOT.jar;C:/Users/uirtis/.m2/repository/com/mycompany/BancoNegocio/1.0-SNAPSHOT/BancoNegocio-1.0-SNAPSHOT.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'18'
+-sourcepath
+'C:/Users/uirtis/Documents/GitHub/ProyectoBDA1/BancoPersistencia/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/uirtis/Documents/GitHub/ProyectoBDA1/BancoPersistencia/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BancoPersistencia 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'BancoPersistencia 1.0-SNAPSHOT API'

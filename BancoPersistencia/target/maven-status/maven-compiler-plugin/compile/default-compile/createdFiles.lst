@@ -1,7 +1,9 @@
 com\mycompany\bancopersistencia\BancoPersistencia.class
 com\mycompany\bancopersistencia\DAOS\ClienteDAO.class
+com\mycompany\bancopersistencia\DAOS\ICuentaDAO.class
 com\mycompany\bancopersistencia\PersistenciaException\PersistenciaException.class
 com\mycompany\bancopersistencia\Control\Control.class
 com\mycompany\bancopersistencia\Conexiones\IConexionBD.class
 com\mycompany\bancopersistencia\Conexiones\ConexionBD.class
+com\mycompany\bancopersistencia\DAOS\CuentaDAO.class
 com\mycompany\bancopersistencia\DAOS\IClienteDAO.class

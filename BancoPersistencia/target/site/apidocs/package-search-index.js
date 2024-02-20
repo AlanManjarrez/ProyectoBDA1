@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.mycompany.bancopersistencia"},{"l":"com.mycompany.bancopersistencia.Conexiones"},{"l":"com.mycompany.bancopersistencia.Control"},{"l":"com.mycompany.bancopersistencia.DAOS"},{"l":"com.mycompany.bancopersistencia.PersistenciaException"}];updateSearchResults();

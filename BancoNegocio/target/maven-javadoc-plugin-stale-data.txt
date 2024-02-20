@@ -1,0 +1,46 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'18'
+-sourcepath
+'C:/Users/uirtis/Documents/GitHub/ProyectoBDA1/BancoNegocio/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/uirtis/Documents/GitHub/ProyectoBDA1/BancoNegocio/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BancoNegocio 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'BancoNegocio 1.0-SNAPSHOT API'
+com.mycompany.banconegocio
+com.mycompany.banconegocio.DTOS
+com.mycompany.banconegocio.DTOS.control
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\src\main\java = 1708064739636
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\allclasses-index.html = 1708410700950
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\allpackages-index.html = 1708410700954
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\copy.svg = 1708410701043
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\element-list = 1708410700724
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\help-doc.html = 1708410701035
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\index-all.html = 1708410701013
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\index.html = 1708410700898
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\jquery-ui.overrides.css = 1708410701093
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\member-search-index.js = 1708410700964
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\module-search-index.js = 1708410700957
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\overview-summary.html = 1708410701026
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\overview-tree.html = 1708410700889
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\package-search-index.js = 1708410700959
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\script.js = 1708410701040
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\search.js = 1708410701045
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\stylesheet.css = 1708410701038
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\tag-search-index.js = 1708410700966
+C:\Users\uirtis\Documents\GitHub\ProyectoBDA1\BancoNegocio\target\site\apidocs\type-search-index.js = 1708410700961
