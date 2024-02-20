@@ -138,7 +138,9 @@ public class Transferencia extends javax.swing.JPanel {
 
     private void jbtnConfirmarMontoTransActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnConfirmarMontoTransActionPerformed
         // TODO add your handling code here:
-
+        MenuPrincipal menu = new MenuPrincipal();
+        menu.setVisible(true);
+        dispose();
     }//GEN-LAST:event_jbtnConfirmarMontoTransActionPerformed
 
 
@@ -151,4 +153,8 @@ public class Transferencia extends javax.swing.JPanel {
     private javax.swing.JLabel textBienvenido;
     private javax.swing.JLabel textNombre;
     // End of variables declaration//GEN-END:variables
+
+    private void dispose() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

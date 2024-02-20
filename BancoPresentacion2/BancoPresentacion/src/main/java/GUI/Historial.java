@@ -34,7 +34,7 @@ public class Historial extends javax.swing.JFrame {
         textBienvenido = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         textNombre = new javax.swing.JLabel();
-        jbtnRegresar = new javax.swing.JButton();
+        jbtnRegresarMenu = new javax.swing.JButton();
         botonRetirosinTarjeta = new javax.swing.JButton();
         botonTransferencia = new javax.swing.JButton();
         jtextoIngresarApellido1 = new javax.swing.JTextField();
@@ -78,11 +78,11 @@ public class Historial extends javax.swing.JFrame {
         textNombre.setFont(new java.awt.Font("Arial Narrow", 1, 24)); // NOI18N
         textNombre.setText("Fecha 1:");
 
-        jbtnRegresar.setFont(new java.awt.Font("Arial Narrow", 0, 16)); // NOI18N
-        jbtnRegresar.setText("Regresar");
-        jbtnRegresar.addActionListener(new java.awt.event.ActionListener() {
+        jbtnRegresarMenu.setFont(new java.awt.Font("Arial Narrow", 0, 16)); // NOI18N
+        jbtnRegresarMenu.setText("Regresar");
+        jbtnRegresarMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbtnRegresarActionPerformed(evt);
+                jbtnRegresarMenuActionPerformed(evt);
             }
         });
 
@@ -160,7 +160,7 @@ public class Historial extends javax.swing.JFrame {
                         .addComponent(textNombre))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(173, 173, 173)
-                        .addComponent(jbtnRegresar)))
+                        .addComponent(jbtnRegresarMenu)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -181,7 +181,7 @@ public class Historial extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jbtnRegresar)
+                .addComponent(jbtnRegresarMenu)
                 .addGap(7, 7, 7))
         );
 
@@ -203,12 +203,12 @@ public class Historial extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jbtnRegresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnRegresarActionPerformed
+    private void jbtnRegresarMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnRegresarMenuActionPerformed
         // TODO add your handling code here:
-        Login principal = new Login();
-        principal.setVisible(true);
+        MenuPrincipal menu = new MenuPrincipal();
+        menu.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jbtnRegresarActionPerformed
+    }//GEN-LAST:event_jbtnRegresarMenuActionPerformed
 
     private void botonRetirosinTarjetaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonRetirosinTarjetaActionPerformed
         // TODO add your handling code here:
@@ -230,43 +230,43 @@ public class Historial extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jtextoIngresarApellido2ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Historial().setVisible(true);
-            }
-        });
-    }
+//    /**
+//     * @param args the command line arguments
+//     */
+//    public static void main(String args[]) {
+//        /* Set the Nimbus look and feel */
+//        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+//        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+//         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+//         */
+//        try {
+//            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+//                if ("Nimbus".equals(info.getName())) {
+//                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+//                    break;
+//                }
+//            }
+//        } catch (ClassNotFoundException ex) {
+//            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (InstantiationException ex) {
+//            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (IllegalAccessException ex) {
+//            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+//            java.util.logging.Logger.getLogger(Historial.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        }
+//        //</editor-fold>
+//        //</editor-fold>
+//        //</editor-fold>
+//        //</editor-fold>
+//
+//        /* Create and display the form */
+//        java.awt.EventQueue.invokeLater(new Runnable() {
+//            public void run() {
+//                new Historial().setVisible(true);
+//            }
+//        });
+//    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botonRetirosinTarjeta;
@@ -274,7 +274,7 @@ public class Historial extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JButton jbtnRegresar;
+    private javax.swing.JButton jbtnRegresarMenu;
     private javax.swing.JTextField jtextoIngresarApellido;
     private javax.swing.JTextField jtextoIngresarApellido1;
     private javax.swing.JTextField jtextoIngresarApellido2;

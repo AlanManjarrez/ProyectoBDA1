@@ -133,7 +133,7 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="173" max="-2" attributes="0"/>
-                          <Component id="jbtnRegresar" min="-2" max="-2" attributes="0"/>
+                          <Component id="jbtnRegresarMenu" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
@@ -159,7 +159,7 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jPanel3" max="32767" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jbtnRegresar" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtnRegresarMenu" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -174,7 +174,7 @@
             <Property name="text" type="java.lang.String" value="Fecha 1:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jbtnRegresar">
+        <Component class="javax.swing.JButton" name="jbtnRegresarMenu">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial Narrow" size="16" style="0"/>
@@ -182,7 +182,7 @@
             <Property name="text" type="java.lang.String" value="Regresar"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnRegresarActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnRegresarMenuActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="botonRetirosinTarjeta">

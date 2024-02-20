@@ -1,0 +1,7 @@
+com\mycompany\banconegocio\BancoNegocio.class
+com\mycompany\banconegocio\DTOS\TransferenciaDTO.class
+com\mycompany\banconegocio\DTOS\RetiroDTO.class
+com\mycompany\banconegocio\DTOS\ClienteDTO.class
+com\mycompany\banconegocio\DTOS\control\Control.class
+com\mycompany\banconegocio\DTOS\CuentaDTO.class
+com\mycompany\banconegocio\DTOS\DomicilioDTO.class
